@@ -1,6 +1,26 @@
-Sense-Drive:
+# Sense-Drive
+Arduino Code & Motor driver board by PatrickPro
 
-We used an Arduino Mega 2560 board connected to our custom-made servo and motor driver board.
+## What is it?
+Sense-Drive is a haptic interface that is integrated into a car’s center console and its armrest. 
+It is designed to give on demand feedback if the driver places one hand on top. 
+To make it convenient for usage Sense-Drive has around and ergonomic shape.
+The core functions can be split into two parts. 
+First, Sense-Touch provides vibration feedback in unpredictable or dangerous situations, 
+e.g. if there are any obstacles around the car and also at dangerous and unpredictable crossings, 
+it helps the driver to decide whether to turn in at the crossing or whether to wait for a hidden and passing car. 
+The driver can even distinguish between the directions of a warning. 
+Our prototype consists of six vibration segments for direction feedback from front left, front right, left, right, rear left and/or rear right. 
+The second part of Sense-Touch is a clear and palpable driving mode feedback. 
+There are two additional segments for this purpose in the front and back. 
+Depending on the mode the front segment or the back segment moves out of the round shape. 
+The spatial arrangement of these segments makes it easy and intuitive to see, feel and map the current driving mode with the direction of car movement. 
+We have included a glass area in the center of our prototype, which can be used like a touch pad for gestural touch input to change the driving mode and could be replaced by a real touch display in future.
+
+Please check SenseDrive_Project_Description.pdf for further details.
+
+## Sense-Drive Arduino Setup:
+We used an Arduino Mega 2560 board connected to our custom-made servo and motor driver board (check picture folder).
 Control commands can be issued via serial console (9600baud & newline).
 
 Following commands are implemented:
