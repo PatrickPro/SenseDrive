@@ -1,7 +1,8 @@
-# Sense-Drive
+Sense-Drive
 Arduino Code & Motor driver board by PatrickPro
 
-## What is it?
+What is it?
+
 Sense-Drive is a haptic interface that is integrated into a car’s center console and its armrest. 
 It is designed to give on demand feedback if the driver places one hand on top. 
 To make it convenient for usage Sense-Drive has around and ergonomic shape.
@@ -19,7 +20,9 @@ We have included a glass area in the center of our prototype, which can be used 
 
 Please check SenseDrive_Project_Description.pdf for further details.
 
-## Sense-Drive Arduino Setup:
+
+Arduino Setup:
+
 We used an Arduino Mega 2560 board connected to our custom-made servo and motor driver board (check picture folder).
 Control commands can be issued via serial console (9600baud & newline).
 
