@@ -1,0 +1,31 @@
+Sense-Drive:
+
+We used an Arduino Mega 2560 board connected to our custom-made servo and motor driver board.
+Control commands can be issued via serial console (9600baud & newline).
+
+Following commands are implemented:
+FL   = Vibrate Front Left
+FR   = Vibrate Front Right
+ML   = Vibrate Middle Left 
+MR   = Vibrate Middle Right
+RL   = Vibrate Rear Left        
+RR   = Vibrate Rear Right
+ALL  = Vibrate  All 
+TEST = System Test
+SN   = Shift Neutral
+SF   = Shift Forward    
+SR   = Shift Reverse
+
+
+PINOUT:
+PIN 46: Front Servo
+PIN 44: Rear Servo
+PIN  2: Vibration Front Left
+PIN  3: Vibration Front Right
+PIN  4: Vibration Middle Left
+PIN  5: Vibration Middle Right
+PIN  6: Vibration Rear Left
+PIN  7: Vibration Rear Right
+
+
+
